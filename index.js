@@ -2,7 +2,7 @@ module.change_code = 1;
 'use strict';
 
 var alexa = require( 'alexa-app' );
-var app = new alexa.app( 'testApp' );
+var app = new alexa.app( 'testapp' );
 
 
 app.launch( function( request, response ) {
